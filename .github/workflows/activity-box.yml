@@ -2,7 +2,7 @@ name: Activity Box
 
 on:
   schedule:
-    - cron: '*/60 9,12,18 * * *'
+    - cron: ${{ secrets.GH_CRON }}
 
 jobs:
   build:
